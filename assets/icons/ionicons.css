@@ -1,0 +1,634 @@
+@font-face {
+  font-family: 'ionicons';
+  src:
+    url('fonts/ionicons.ttf?m539wa') format('truetype'),
+    url('fonts/ionicons.woff?m539wa') format('woff'),
+    url('fonts/ionicons.svg?m539wa#ionicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ion, .ionicons, .icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ionicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ion-ios-color-fill:before {
+  content: "\f159";
+}
+.ion-md-paper-plane:before {
+  content: "\f33e";
+}
+.ion-ios-cart:before {
+  content: "\f3f8";
+}
+.ion-ios-mail:before {
+  content: "\f1b8";
+}
+.ion-logo-windows:before {
+  content: "\f32f";
+}
+.ion-ios-bug:before {
+  content: "\f134";
+}
+.ion-ios-search:before {
+  content: "\f4a5";
+}
+.ion-logo-youtube:before {
+  content: "\f34f";
+}
+.ion-ios-power:before {
+  content: "\f1ef";
+}
+.ion-ios-apps:before {
+  content: "\f10a";
+}
+.ion-md-tv:before {
+  content: "\f17f";
+}
+.ion-md-home:before {
+  content: "\f30c";
+}
+.ion-md-color-fill:before {
+  content: "\f2d0";
+}
+.ion-ios-star-half:before {
+  content: "\f4b1";
+}
+.ion-ios-person:before {
+  content: "\f47e";
+}
+.ion-ios-color-palette:before {
+  content: "\f15b";
+}
+.ion-md-download:before {
+  content: "\f2e3";
+}
+.ion-md-star-outline:before {
+  content: "\f383";
+}
+.ion-md-phone-portrait:before {
+  content: "\f347";
+}
+.ion-md-add:before {
+  content: "\f273";
+}
+.ion-md-arrow-dropup:before {
+  content: "\f286";
+}
+.ion-ios-checkmark-circle:before {
+  content: "\f14a";
+}
+.ion-ios-link:before {
+  content: "\f22a";
+}
+.ion-md-checkbox-outline:before {
+  content: "\f2b8";
+}
+.ion-md-cloud-upload:before {
+  content: "\f2c8";
+}
+.ion-logo-instagram:before {
+  content: "\f23e";
+}
+.ion-md-chatbubbles:before {
+  content: "\f2b7";
+}
+.ion-logo-rss:before {
+  content: "\f248";
+}
+.ion-ios-information-circle-outline:before {
+  content: "\f19f";
+}
+.ion-md-videocam:before {
+  content: "\f39f";
+}
+.ion-ios-square-outline:before {
+  content: "\f15c";
+}
+.ion-ios-information-circle:before {
+  content: "\f1a0";
+}
+.ion-md-search:before {
+  content: "\f375";
+}
+.ion-logo-reddit:before {
+  content: "\f247";
+}
+.ion-md-power:before {
+  content: "\f359";
+}
+.ion-ios-arrow-down:before {
+  content: "\f3d0";
+}
+.ion-logo-linkedin:before {
+  content: "\f240";
+}
+.ion-ios-card:before {
+  content: "\f142";
+}
+.ion-ios-checkmark-circle-outline:before {
+  content: "\f149";
+}
+.ion-md-color-wand:before {
+  content: "\f2d3";
+}
+.ion-ios-compass:before {
+  content: "\f15d";
+}
+.ion-ios-arrow-dropright-circle:before {
+  content: "\f12b";
+}
+.ion-logo-buffer:before {
+  content: "\f22d";
+}
+.ion-ios-arrow-forward:before {
+  content: "\f3d1";
+}
+.ion-md-pin:before {
+  content: "\f34a";
+}
+.ion-ios-color-wand:before {
+  content: "\f416";
+}
+.ion-ios-pie:before {
+  content: "\f484";
+}
+.ion-md-person:before {
+  content: "\f345";
+}
+.ion-md-cloud-download:before {
+  content: "\f2c6";
+}
+.ion-ios-partly-sunny:before {
+  content: "\f1df";
+}
+.ion-md-cloudy-night:before {
+  content: "\f2ca";
+}
+.ion-md-log-out:before {
+  content: "\f31f";
+}
+.ion-md-appstore:before {
+  content: "\f27b";
+}
+.ion-ios-reorder:before {
+  content: "\f1fd";
+}
+.ion-md-link:before {
+  content: "\f22e";
+}
+.ion-ios-chatbubbles:before {
+  content: "\f146";
+}
+.ion-md-checkmark-circle:before {
+  content: "\f2bb";
+}
+.ion-ios-checkbox-outline:before {
+  content: "\f147";
+}
+.ion-ios-home:before {
+  content: "\f448";
+}
+.ion-ios-paper:before {
+  content: "\f472";
+}
+.ion-ios-log-in:before {
+  content: "\f1b1";
+}
+.ion-ios-list:before {
+  content: "\f454";
+}
+.ion-md-time:before {
+  content: "\f394";
+}
+.ion-ios-add-circle-outline:before {
+  content: "\f100";
+}
+.ion-ios-mail-unread:before {
+  content: "\f145";
+}
+.ion-md-desktop:before {
+  content: "\f2df";
+}
+.ion-md-mail-open:before {
+  content: "\f321";
+}
+.ion-md-cart:before {
+  content: "\f2b4";
+}
+.ion-md-archive:before {
+  content: "\f27c";
+}
+.ion-logo-whatsapp:before {
+  content: "\f2c5";
+}
+.ion-md-tablet-landscape:before {
+  content: "\f38c";
+}
+.ion-md-mail:before {
+  content: "\f322";
+}
+.ion-ios-chatboxes:before {
+  content: "\f3fa";
+}
+.ion-md-checkmark-circle-outline:before {
+  content: "\f2ba";
+}
+.ion-ios-jet:before {
+  content: "\f1a5";
+}
+.ion-ios-school:before {
+  content: "\f209";
+}
+.ion-md-log-in:before {
+  content: "\f31e";
+}
+.ion-md-happy:before {
+  content: "\f305";
+}
+.ion-md-bookmarks:before {
+  content: "\f2a0";
+}
+.ion-ios-cut:before {
+  content: "\f16a";
+}
+.ion-ios-paper-plane:before {
+  content: "\f1dd";
+}
+.ion-logo-facebook:before {
+  content: "\f236";
+}
+.ion-md-paper:before {
+  content: "\f33f";
+}
+.ion-logo-twitter:before {
+  content: "\f2b0";
+}
+.ion-md-bonfire:before {
+  content: "\f29d";
+}
+.ion-ios-pricetags:before {
+  content: "\f48f";
+}
+.ion-ios-wallet:before {
+  content: "\f18b";
+}
+.ion-ios-journal:before {
+  content: "\f189";
+}
+.ion-ios-checkmark:before {
+  content: "\f3ff";
+}
+.ion-md-warning:before {
+  content: "\f3a5";
+}
+.ion-md-thumbs-up:before {
+  content: "\f392";
+}
+.ion-md-star-half:before {
+  content: "\f382";
+}
+.ion-ios-phone-portrait:before {
+  content: "\f1e3";
+}
+.ion-md-jet:before {
+  content: "\f315";
+}
+.ion-md-heart-half:before {
+  content: "\f1a2";
+}
+.ion-ios-images:before {
+  content: "\f19e";
+}
+.ion-ios-contact:before {
+  content: "\f41a";
+}
+.ion-md-copy:before {
+  content: "\f2da";
+}
+.ion-ios-people:before {
+  content: "\f47c";
+}
+.ion-logo-wordpress:before {
+  content: "\f330";
+}
+.ion-md-albums:before {
+  content: "\f275";
+}
+.ion-ios-heart-half:before {
+  content: "\f19d";
+}
+.ion-ios-arrow-dropup-circle:before {
+  content: "\f12d";
+}
+.ion-md-image:before {
+  content: "\f30e";
+}
+.ion-md-calendar:before {
+  content: "\f2ab";
+}
+.ion-ios-photos:before {
+  content: "\f482";
+}
+.ion-ios-call:before {
+  content: "\f13e";
+}
+.ion-ios-arrow-back:before {
+  content: "\f3cf";
+}
+.ion-md-send:before {
+  content: "\f376";
+}
+.ion-ios-camera:before {
+  content: "\f3f6";
+}
+.ion-md-close:before {
+  content: "\f2c0";
+}
+.ion-ios-bookmark:before {
+  content: "\f12e";
+}
+.ion-md-play-circle:before {
+  content: "\f174";
+}
+.ion-md-color-palette:before {
+  content: "\f2d2";
+}
+.ion-ios-arrow-dropleft-circle:before {
+  content: "\f129";
+}
+.ion-logo-apple:before {
+  content: "\f229";
+}
+.ion-ios-square:before {
+  content: "\f21a";
+}
+.ion-ios-albums:before {
+  content: "\f3ca";
+}
+.ion-md-star:before {
+  content: "\f384";
+}
+.ion-md-bookmark:before {
+  content: "\f29f";
+}
+.ion-logo-android:before {
+  content: "\f225";
+}
+.ion-md-clipboard:before {
+  content: "\f2bd";
+}
+.ion-md-images:before {
+  content: "\f30f";
+}
+.ion-ios-star-outline:before {
+  content: "\f4b2";
+}
+.ion-ios-calendar:before {
+  content: "\f3f4";
+}
+.ion-md-more:before {
+  content: "\f1c9";
+}
+.ion-md-heart-empty:before {
+  content: "\f1a1";
+}
+.ion-ios-arrow-dropup:before {
+  content: "\f116";
+}
+.ion-ios-arrow-round-forward:before {
+  content: "\f119";
+}
+.ion-ios-arrow-up:before {
+  content: "\f3d8";
+}
+.ion-ios-folder-open:before {
+  content: "\f180";
+}
+.ion-ios-tablet-portrait:before {
+  content: "\f24e";
+}
+.ion-ios-arrow-dropright:before {
+  content: "\f114";
+}
+.ion-ios-image:before {
+  content: "\f19c";
+}
+.ion-ios-help-buoy:before {
+  content: "\f196";
+}
+.ion-md-filing:before {
+  content: "\f2ec";
+}
+.ion-ios-close-circle-outline:before {
+  content: "\f14d";
+}
+.ion-md-arrow-forward:before {
+  content: "\f287";
+}
+.ion-md-arrow-dropdown:before {
+  content: "\f280";
+}
+.ion-ios-menu:before {
+  content: "\f1c3";
+}
+.ion-ios-close-circle:before {
+  content: "\f14e";
+}
+.ion-ios-close:before {
+  content: "\f406";
+}
+.ion-md-arrow-round-forward:before {
+  content: "\f28a";
+}
+.ion-md-arrow-dropleft-circle:before {
+  content: "\f281";
+}
+.ion-md-open:before {
+  content: "\f33b";
+}
+.ion-md-stopwatch:before {
+  content: "\f386";
+}
+.ion-md-cut:before {
+  content: "\f2de";
+}
+.ion-md-photos:before {
+  content: "\f348";
+}
+.ion-ios-print:before {
+  content: "\f1f1";
+}
+.ion-md-thumbs-down:before {
+  content: "\f391";
+}
+.ion-md-arrow-dropright-circle:before {
+  content: "\f283";
+}
+.ion-md-rocket:before {
+  content: "\f179";
+}
+.ion-md-globe:before {
+  content: "\f301";
+}
+.ion-ios-log-out:before {
+  content: "\f1b2";
+}
+.ion-ios-heart:before {
+  content: "\f443";
+}
+.ion-md-reorder:before {
+  content: "\f369";
+}
+.ion-logo-pinterest:before {
+  content: "\f244";
+}
+.ion-md-call:before {
+  content: "\f2ac";
+}
+.ion-ios-mail-open:before {
+  content: "\f1b6";
+}
+.ion-ios-checkbox:before {
+  content: "\f148";
+}
+.ion-ios-send:before {
+  content: "\f20c";
+}
+.ion-ios-heart-empty:before {
+  content: "\f19b";
+}
+.ion-md-chatboxes:before {
+  content: "\f2b6";
+}
+.ion-md-exit:before {
+  content: "\f2e6";
+}
+.ion-md-basket:before {
+  content: "\f292";
+}
+.ion-ios-contacts:before {
+  content: "\f161";
+}
+.ion-ios-desktop:before {
+  content: "\f16c";
+}
+.ion-ios-laptop:before {
+  content: "\f1a8";
+}
+.ion-md-share:before {
+  content: "\f379";
+}
+.ion-md-ribbon:before {
+  content: "\f371";
+}
+.ion-ios-done-all:before {
+  content: "\f171";
+}
+.ion-ios-attach:before {
+  content: "\f11b";
+}
+.ion-md-menu:before {
+  content: "\f32a";
+}
+.ion-ios-globe:before {
+  content: "\f18a";
+}
+.ion-md-print:before {
+  content: "\f35c";
+}
+.ion-ios-open:before {
+  content: "\f1d7";
+}
+.ion-md-heart:before {
+  content: "\f308";
+}
+.ion-ios-musical-notes:before {
+  content: "\f46c";
+}
+.ion-md-pie:before {
+  content: "\f349";
+}
+.ion-md-done-all:before {
+  content: "\f2e2";
+}
+.ion-ios-bonfire:before {
+  content: "\f12c";
+}
+.ion-logo-googleplus:before {
+  content: "\f23b";
+}
+.ion-md-checkmark:before {
+  content: "\f2bc";
+}
+.ion-ios-at:before {
+  content: "\f3da";
+}
+.ion-ios-rocket:before {
+  content: "\f14b";
+}
+.ion-md-attach:before {
+  content: "\f28e";
+}
+.ion-ios-more:before {
+  content: "\f1c8";
+}
+.ion-md-tablet-portrait:before {
+  content: "\f38d";
+}
+.ion-md-partly-sunny:before {
+  content: "\f340";
+}
+.ion-ios-cloudy-night:before {
+  content: "\f40e";
+}
+.ion-ios-share:before {
+  content: "\f211";
+}
+.ion-ios-arrow-dropleft:before {
+  content: "\f112";
+}
+.ion-md-checkbox:before {
+  content: "\f2b9";
+}
+.ion-ios-bookmarks:before {
+  content: "\f3ea";
+}
+.ion-ios-star:before {
+  content: "\f4b3";
+}
+.ion-ios-browsers:before {
+  content: "\f3f0";
+}
+.ion-md-pricetags:before {
+  content: "\f35b";
+}
+.ion-ios-leaf:before {
+  content: "\f1aa";
+}
+.ion-md-laptop:before {
+  content: "\f318";
+}
+.ion-ios-tv:before {
+  content: "\f115";
+}
+.ion-ios-phone-landscape:before {
+  content: "\f1e2";
+}
+.ion-ios-warning:before {
+  content: "\f268";
+}
+.ion-ios-play-circle:before {
+  content: "\f113";
+}
