@@ -28,7 +28,7 @@ function enqueue_custom_typography() {
 add_action( 'wp_enqueue_scripts', 'custom_font_icon_css' );
 function custom_font_icon_css() {
 
-	//* Display fontawesome icons.
+    //* Display fontawesome icons.
     //wp_enqueue_style( 'fontawesome', plugin_dir_url( __FILE__ ) .  'assets/icons/fontawesome.css' );
     
     //* Display Ionicons.
@@ -41,13 +41,13 @@ function custom_font_icon_css() {
 add_action( 'wp_enqueue_scripts', 'custom_global_styles_scripts', 100 );
 function custom_global_styles_scripts() {
 	
-	//* Display global CSS
+    //* Display global CSS
     //wp_enqueue_style( 'global-style', plugin_dir_url( __FILE__ ) .  'assets/css/style.css', array(), '1.0.0', 'all' );
-	wp_enqueue_style( 'global', plugin_dir_url( __FILE__ ) .  'assets/css/global.css', array(), '1.0.0', 'all' );
+    wp_enqueue_style( 'global', plugin_dir_url( __FILE__ ) .  'assets/css/global.css', array(), '1.0.0', 'all' );
     //wp_enqueue_style( 'global-default', plugin_dir_url( __FILE__ ) .  'assets/css/default.css', array(), '1.0.0', 'all' );
     //wp_enqueue_style( 'global-custom', plugin_dir_url( __FILE__ ) .  'assets/css/custom.css', array(), '1.0.0', 'all' );
 
-	//* Display global JS true=in footer false= in header
+    //* Display global JS true=in footer false= in header
     //wp_enqueue_script( 'global-script', plugin_dir_url( __FILE__ ) .  'assets/js/global.js', array( 'jquery' ), '1.0.0', false );
     //wp_enqueue_script( 'script-init', plugin_dir_url( __FILE__ ) .  'assets/js/init.js', array( 'jquery' ), '1.0.0', true );
 
