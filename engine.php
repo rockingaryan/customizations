@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Customizations
- * Plugin URI:  https://github.com/rockingaryan/customizations/
+ * Plugin URI:  https://github.com/rockingaryan/customizations
  * Description: Contains site-specific custom code.
  * Author:      Aryan Raj
  * Author URI:  https://www.aryanraj.com/
