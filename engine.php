@@ -52,8 +52,8 @@ function custom_global_styles_scripts() {
 }
 
 //* Add Front Page Style sheets and Scripts
-add_action( 'wp_enqueue_scripts', 'custiom_front_page_styles_scripts' );
-function custiom_front_page_styles_scripts() {
+add_action( 'wp_enqueue_scripts', 'custom_front_page_styles_scripts' );
+function custom_front_page_styles_scripts() {
     
   //if this is not the front page, abort.
   if ( ! is_front_page() ) {
